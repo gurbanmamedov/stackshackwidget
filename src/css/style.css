@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    font-family: Poppins,sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.images {
+    display:flex ;
+    flex-direction: column; 
+    align-items: center;
+    width: 1100px;
+    height: auto;
+    background:#FFCC19 ;
+    border-radius: 10px;
+    padding: 50px;
+    position: relative;
+}
+.sauce-img {
+    position: absolute;
+    height: auto;
+    max-width: 25%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    top: 30px;
+    left: 20px;
+}
+
+.hot-dog-img {
+    position: absolute;
+    height: auto;
+    max-width: 20%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    top: 177px;
+    right: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+.inp-button  {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+input {
+    width: 540px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    padding: 0 20px;
+
+}
+
+.text-block {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-block > h1 {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 62px;
+}
+
+.text-block > p {
+    font-weight: 800;
+    margin-top: 5px;
+    font-size: 26px;
+}
+
+.inp-button > button {
+    width: 150px;
+    height: 50px;
+    background: black;
+    border-radius: 10px;
+    color: #FFCC19;
+    font-size: 18px;
+    transform: scale(0.3s);
+}
+.inp-button > button:hover {
+ background: white;
+ color: black;
+ cursor: pointer;
+ transform: scale(0.3s);
+}
